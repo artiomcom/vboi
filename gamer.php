@@ -14,7 +14,7 @@ class gamer implements fighter
     public $health = 22;
     public $power = 44;
     public $location = 0;
-    public $shootlocation = 1;
+    public $shootlocation = 0;
 
     public function getHealth()
     {

@@ -30,10 +30,12 @@ class FightWithRobotRoundLayout {
 
             $player2 = new robot();
             $player2->getRandomLocation();
-//            $robotlocation = $player2->getShootlocation();
+            $robotlocation = $player2->getShootlocation();
 
             $this->dredd = new JudgeDredd();
             $this->dredd->shootComment($playershootloc,  $player2->getRandomShootToLoc());
+            $this->dredd->ChangeLocComment($playerlocation, $robotlocation);
+//            $this->dredd->JudgeDreddComment($player1,$player2);
         }
     }
 

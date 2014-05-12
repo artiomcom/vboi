@@ -26,7 +26,7 @@
       <file leaf-file-name="vboi.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vboi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.093294464" vertical-offset="62" max-vertical-offset="405">
+            <state line="19" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.65014577" vertical-offset="62" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="JudgeDredd.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JudgeDredd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="322" selection-end="322" vertical-scroll-proportion="-4.9166665" vertical-offset="62" max-vertical-offset="405">
+            <state line="31" column="52" selection-start="911" selection-end="911" vertical-scroll-proportion="-14.375" vertical-offset="45" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="FightWithRobotRoundLayout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="2" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="600">
+            <state line="24" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="-2.4166667" vertical-offset="227" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="robot.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1470">
+            <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="3.125" vertical-offset="135" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="gamer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1050">
+            <state line="13" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="24.458334" vertical-offset="707" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -84,11 +84,11 @@
         <option value="$PROJECT_DIR$/fighter.php" />
         <option value="$PROJECT_DIR$/boi.php" />
         <option value="$PROJECT_DIR$/DreddJudje.php" />
+        <option value="$PROJECT_DIR$/robot.php" />
+        <option value="$PROJECT_DIR$/vboi.php" />
         <option value="$PROJECT_DIR$/FightWithRobotRoundLayout.php" />
         <option value="$PROJECT_DIR$/JudgeDredd.php" />
-        <option value="$PROJECT_DIR$/robot.php" />
         <option value="$PROJECT_DIR$/gamer.php" />
-        <option value="$PROJECT_DIR$/vboi.php" />
       </list>
     </option>
   </component>
@@ -361,37 +361,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/robot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="3.125" vertical-offset="135" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="2" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="600">
+        <state line="24" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="-2.4166667" vertical-offset="227" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JudgeDredd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="322" selection-end="322" vertical-scroll-proportion="-4.9166665" vertical-offset="62" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1470">
+        <state line="31" column="52" selection-start="911" selection-end="911" vertical-scroll-proportion="-14.375" vertical-offset="45" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gamer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1050">
+        <state line="13" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="24.458334" vertical-offset="707" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vboi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.093294464" vertical-offset="62" max-vertical-offset="405">
+        <state line="19" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.65014577" vertical-offset="62" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
