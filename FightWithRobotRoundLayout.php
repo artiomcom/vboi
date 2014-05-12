@@ -31,9 +31,7 @@ class FightWithRobotRoundLayout {
             $this->robocop = new robot();
             $this->robocop->setLocation(1);
 
-
-
-            $this->dredd = new DreddJudje1();
+            $this->dredd = new DreddJudje();
             $this->dredd->roundWinnerComment($playershootloc, $this->robocop->getRandomShootToLoc());
 
 
