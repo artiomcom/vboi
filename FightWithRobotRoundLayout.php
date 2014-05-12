@@ -8,7 +8,7 @@
 
 require_once('robot.php');
 require_once('gamer.php');
-require_once('JudgeDredd.php');
+require_once('Judge.php');
 
 class FightWithRobotRoundLayout {
 
@@ -32,7 +32,7 @@ class FightWithRobotRoundLayout {
             $player2->getRandomLocation();
             $robotlocation = $player2->getShootlocation();
 
-            $this->dredd = new JudgeDredd();
+            $this->dredd = new Judge();
             $this->dredd->shootComment($playershootloc,  $player2->getRandomShootToLoc());
             $this->dredd->ChangeLocComment($playerlocation, $robotlocation);
 //            $this->dredd->JudgeDreddComment($player1,$player2);

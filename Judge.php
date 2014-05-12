@@ -9,8 +9,7 @@
 require_once('robot.php');
 require_once('gamer.php');
 
-
-class JudgeDredd
+class Judge
 {
     public function shootComment($fighter1ShootLoc, $fighter2ShootLoc)
     {
