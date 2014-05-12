@@ -5,9 +5,10 @@
  * Date: 5/12/14
  * Time: 10:41 PM
  */
-require_once('fighter.php');
+//require_once('fighter.php');
 
-class gamer implements fighter{
+class gamer implements fighter
+{
 
     public $name = "Bruce Lee";
     public $health = 22;
@@ -22,12 +23,12 @@ class gamer implements fighter{
 
     public function getPower()
     {
-      return $this->power;
+        return $this->power;
     }
 
     public function getLocation()
     {
-       return $this->location;
+        return $this->location;
     }
 
     public function setHealth($health)
@@ -47,7 +48,7 @@ class gamer implements fighter{
 
     public function getShootlocation()
     {
-       return $this->shootlocation;
+        return $this->shootlocation;
     }
 
     public function setShootlocation($shootlocation)

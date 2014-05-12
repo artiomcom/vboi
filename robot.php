@@ -1,7 +1,7 @@
 <?php
 //namespace classrobot;
 //use classrobot\fighter;
-require_once('fighter.php');
+//require_once('fighter.php');
 
 class robot implements fighter
 {
@@ -14,9 +14,9 @@ class robot implements fighter
 
     public function getRandomShootToLoc()
     {
-       $rand = rand(0, 2);
-       $this->setShootlocation($rand);
-       return $this->getShootlocation();
+        $rand = rand(0, 2);
+        $this->setShootlocation($rand);
+        return $this->getShootlocation();
     }
 
     public function getRandomLocation()
@@ -73,7 +73,7 @@ class robot implements fighter
 
     public function setHealth($health)
     {
-       $this->health = $health;
+        $this->health = $health;
     }
 
     public function setPower($power)
@@ -83,7 +83,7 @@ class robot implements fighter
 
     public function getName()
     {
-       return $this->name;
+        return $this->name;
     }
 
     public function setName($name)

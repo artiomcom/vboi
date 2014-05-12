@@ -10,9 +10,9 @@ require_once('robot.php');
 require_once('gamer.php');
 
 
-class DreddJudje {
+class JudgeDredd {
 
-    public function roundComment($fighter1ShootLoc, $fighter2ShootLoc)
+    public function shootComment($fighter1ShootLoc, $fighter2ShootLoc)
     {
         $fighter1 = new gamer();
         $fighter1->setShootlocation($fighter1ShootLoc);
@@ -23,9 +23,5 @@ class DreddJudje {
         $fighter2->setShootlocation($fighter2ShootLoc);
         $fighter2shootresult = ($fighter2->getName() ." Стрелял в ". $fighter2->getShootlocation());
         var_dump($fighter2shootresult);
-
-
-
     }
-
-} 
+}

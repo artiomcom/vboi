@@ -8,42 +8,33 @@
 
 require_once('robot.php');
 require_once('gamer.php');
-require_once('DreddJudje.php');
+require_once('JudgeDredd.php');
 
 class FightWithRobotRoundLayout {
 
-    public $robocop;
-    public $player;
-    public $dredd;
+    protected $dredd;
 
-    public function getRound($player1,$player2){
-
+    public function getRound($player1, $player2)
+    {
         for ($i=0; $i < 3; $i++) {
-
             var_dump("Куда стрелять?");
             $line = readline("");
-            $this->player = new gamer();
-            $this->player->setShootlocation($line);
-            $playershootloc = $this->player->getShootlocation();
+            $player1 = new gamer();
+            $player1->setShootlocation($line);
+            $playershootloc = $player1->getShootlocation();
 
             var_dump("Куда уклоняться?");
             $line1 = readline("");
-            $this->player->setLocation($line1);
-            $playerlocation = $this->player->getLocation();
+            $player1->setLocation($line1);
+            $playerlocation = $player1->getLocation();
 
-            $this->robocop = new robot();
-            $this->robocop->getRandomLocation();
-            $robotlocation = $this->robocop->getShootlocation();
+            $player2 = new robot();
+            $player2->getRandomLocation();
+//            $robotlocation = $player2->getShootlocation();
 
-            $this->dredd = new DreddJudje();
-
-            $this->dredd->roundComment($playershootloc,  $this->robocop->getRandomShootToLoc());
-
-            $this->dredd->roundComment($playershootloc,  $this->robocop->getRandomShootToLoc());
-
-
+            $this->dredd = new JudgeDredd();
+            $this->dredd->shootComment($playershootloc,  $player2->getRandomShootToLoc());
         }
-
     }
 
 } 

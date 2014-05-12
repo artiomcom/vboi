@@ -23,28 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="boi.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boi.php">
+      <file leaf-file-name="vboi.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vboi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="19" selection-start="662" selection-end="662" vertical-scroll-proportion="-5.5416665" vertical-offset="377" max-vertical-offset="720">
+            <state line="2" column="32" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.093294464" vertical-offset="62" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DreddJudje.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DreddJudje.php">
+      <file leaf-file-name="JudgeDredd.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JudgeDredd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="469" selection-end="469" vertical-scroll-proportion="-4.9166665" vertical-offset="92" max-vertical-offset="465">
+            <state line="17" column="49" selection-start="322" selection-end="322" vertical-scroll-proportion="-4.9166665" vertical-offset="62" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FightWithRobotRoundLayout.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FightWithRobotRoundLayout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="395" selection-end="395" vertical-scroll-proportion="0.30029154" vertical-offset="152" max-vertical-offset="735">
+            <state line="39" column="2" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="robot.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="417" selection-end="417" vertical-scroll-proportion="-4.9166665" vertical-offset="167" max-vertical-offset="1470">
+            <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,8 @@
       <file leaf-file-name="gamer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="1035">
-              <folding>
-                <element signature="e#6#85#0" expanded="false" />
-              </folding>
+            <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1050">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,10 +83,12 @@
         <option value="$PROJECT_DIR$/RoundLayout.php" />
         <option value="$PROJECT_DIR$/fighter.php" />
         <option value="$PROJECT_DIR$/boi.php" />
-        <option value="$PROJECT_DIR$/gamer.php" />
-        <option value="$PROJECT_DIR$/robot.php" />
         <option value="$PROJECT_DIR$/DreddJudje.php" />
         <option value="$PROJECT_DIR$/FightWithRobotRoundLayout.php" />
+        <option value="$PROJECT_DIR$/JudgeDredd.php" />
+        <option value="$PROJECT_DIR$/robot.php" />
+        <option value="$PROJECT_DIR$/gamer.php" />
+        <option value="$PROJECT_DIR$/vboi.php" />
       </list>
     </option>
   </component>
@@ -181,6 +181,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vboi.php" />
   </component>
   <component name="RunManager" selected="PHP Script.boi.php">
     <configuration default="false" name="robot.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/untitled/robot.php">
@@ -191,7 +192,7 @@
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="boi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/boi.php">
+    <configuration default="false" name="boi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/vboi.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -318,7 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boi.php">
+    <entry file="file://$PROJECT_DIR$/vboi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
           <folding />
@@ -339,7 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boi.php">
+    <entry file="file://$PROJECT_DIR$/vboi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
           <folding />
@@ -360,39 +361,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="2" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JudgeDredd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="322" selection-end="322" vertical-scroll-proportion="-4.9166665" vertical-offset="62" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="417" selection-end="417" vertical-scroll-proportion="-4.9166665" vertical-offset="167" max-vertical-offset="1470">
+        <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gamer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="-31.25" vertical-offset="0" max-vertical-offset="1035">
-          <folding>
-            <element signature="e#6#85#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DreddJudje.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="469" selection-end="469" vertical-scroll-proportion="-4.9166665" vertical-offset="92" max-vertical-offset="465">
+        <state line="8" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boi.php">
+    <entry file="file://$PROJECT_DIR$/vboi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="19" selection-start="662" selection-end="662" vertical-scroll-proportion="-5.5416665" vertical-offset="377" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="395" selection-end="395" vertical-scroll-proportion="0.30029154" vertical-offset="152" max-vertical-offset="735">
+        <state line="2" column="32" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.093294464" vertical-offset="62" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
