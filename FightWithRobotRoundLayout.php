@@ -18,7 +18,7 @@ class FightWithRobotRoundLayout {
 
     public function getRound(){
 
-        for ($i=0; $i < 3; $i++) {
+        for ($i=0; $i < 9; $i++) {
 
             var_dump("Куда стрелять?");
             $line = readline("");
@@ -29,10 +29,13 @@ class FightWithRobotRoundLayout {
 
 
             $this->robocop = new robot();
-            $this->robocop->setLocation(1);
+
+            $this->robocop->getRandomLocation();
+            $robotlocation = $this->robocop->getShootlocation();
+
 
             $this->dredd = new DreddJudje();
-            $this->dredd->roundWinnerComment($playershootloc, $this->robocop->getRandomShootToLoc());
+            $this->dredd->roundWinnerComment($playershootloc,  $this->robocop->getRandomShootToLoc());
 
 
         }

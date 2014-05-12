@@ -16,12 +16,13 @@ class DreddJudje {
     {
         $fighter1 = new gamer();
         var_dump($fighter1->getName());
-        $fighter1->shootlocation= $fighter1ShootLoc;
+        $fighter1->setShootlocation($fighter1ShootLoc);
         var_dump($fighter1->getShootlocation());
 
 
         $fighter2 = new robot();
         var_dump($fighter2->getName());
+        $fighter2->setShootlocation($fighter2ShootLoc);
         var_dump($fighter2->getShootlocation());
 
     }

@@ -19,6 +19,13 @@ class robot implements fighter
        return $this->getShootlocation();
     }
 
+    public function getRandomLocation()
+    {
+        $rand = rand(0, 2);
+        $this->setLocation($rand);
+        return $this->getLocation();
+    }
+
     public function Health()
     {
         $this->getHealth();
