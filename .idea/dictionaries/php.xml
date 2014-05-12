@@ -5,6 +5,8 @@
       <w>classrobot</w>
       <w>dredd</w>
       <w>figther</w>
+      <w>gamerresult</w>
+      <w>gamershootresult</w>
       <w>healt</w>
       <w>judje</w>
       <w>playershootloc</w>
@@ -14,8 +16,11 @@
       <w>robocob</w>
       <w>robocop</w>
       <w>robotlocation</w>
+      <w>robotresult</w>
+      <w>robotshootresult</w>
       <w>roundlay</w>
       <w>shootlocation</w>
+      <w>shootresult</w>
     </words>
   </dictionary>
 </component>

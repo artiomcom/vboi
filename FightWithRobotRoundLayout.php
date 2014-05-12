@@ -27,9 +27,10 @@ class FightWithRobotRoundLayout {
             $this->player->setShootlocation($line);
             $playershootloc = $this->player->getShootlocation();
 
+            var_dump("Куда уклоняться?");
+            $line1 = readline("");
 
             $this->robocop = new robot();
-
             $this->robocop->getRandomLocation();
             $robotlocation = $this->robocop->getShootlocation();
 

@@ -15,15 +15,14 @@ class DreddJudje {
     public function roundWinnerComment($fighter1ShootLoc, $fighter2ShootLoc)
     {
         $fighter1 = new gamer();
-        var_dump($fighter1->getName());
         $fighter1->setShootlocation($fighter1ShootLoc);
-        var_dump($fighter1->getShootlocation());
-
+        $fighter1shootresult = ($fighter1->getName() ." Стрелял в ". $fighter1->getShootlocation());
+        var_dump($fighter1shootresult);
 
         $fighter2 = new robot();
-        var_dump($fighter2->getName());
         $fighter2->setShootlocation($fighter2ShootLoc);
-        var_dump($fighter2->getShootlocation());
+        $fighter2shootresult = ($fighter2->getName() ." Стрелял в ". $fighter2->getShootlocation());
+        var_dump($fighter2shootresult);
 
     }
 
