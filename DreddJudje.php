@@ -12,7 +12,7 @@ require_once('gamer.php');
 
 class DreddJudje {
 
-    public function roundWinnerComment($fighter1ShootLoc, $fighter2ShootLoc)
+    public function roundComment($fighter1ShootLoc, $fighter2ShootLoc)
     {
         $fighter1 = new gamer();
         $fighter1->setShootlocation($fighter1ShootLoc);
@@ -24,7 +24,8 @@ class DreddJudje {
         $fighter2shootresult = ($fighter2->getName() ." Стрелял в ". $fighter2->getShootlocation());
         var_dump($fighter2shootresult);
 
-    }
 
+
+    }
 
 } 
