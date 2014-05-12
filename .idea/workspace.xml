@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DreddJudje.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DreddJudje.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DreddJudje.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="-7.4166665" vertical-offset="107" max-vertical-offset="450">
+            <state line="24" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="0.51895046" vertical-offset="107" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FightWithRobotRoundLayout.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FightWithRobotRoundLayout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="9" selection-start="582" selection-end="647" vertical-scroll-proportion="0.393586" vertical-offset="225" max-vertical-offset="690">
+            <state line="32" column="58" selection-start="756" selection-end="756" vertical-scroll-proportion="-3.75" vertical-offset="315" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -383,16 +383,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreddJudje.php">
+    <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="-7.4166665" vertical-offset="107" max-vertical-offset="450">
+        <state line="32" column="58" selection-start="756" selection-end="756" vertical-scroll-proportion="-3.75" vertical-offset="315" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
+    <entry file="file://$PROJECT_DIR$/DreddJudje.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="582" selection-end="647" vertical-scroll-proportion="0.393586" vertical-offset="225" max-vertical-offset="690">
+        <state line="24" column="39" selection-start="706" selection-end="706" vertical-scroll-proportion="0.51895046" vertical-offset="107" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
