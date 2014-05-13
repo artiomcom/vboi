@@ -12,19 +12,12 @@ class robot implements fighter
     public $shootlocation = 0;
 
 
-    public function getRandomShootToLoc()
-    {
-        $rand = rand(0, 2);
-        $this->setShootlocation($rand);
-        return $this->getShootlocation();
-    }
-
     public function getRandomLocation()
     {
         $rand = rand(0, 2);
-        $this->setLocation($rand);
-        return $this->getLocation();
+        return  $rand;
     }
+
 
     public function Health()
     {

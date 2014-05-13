@@ -11,36 +11,50 @@ require_once('gamer.php');
 
 class Judge
 {
+
+public $fighter1;
+public $fighter2;
+
+    public function initFighters()
+    {
+        $this->fighter1 = new gamer();
+        $this->fighter2 = new robot();
+    }
+
     public function shootComment($fighter1ShootLoc, $fighter2ShootLoc)
     {
-        $fighter1 = new gamer();
-        $fighter1->setShootlocation($fighter1ShootLoc);
-        $fighter1shootresult = ($fighter1->getName() ." Стрелял в ". $fighter1->getShootlocation());
-        var_dump($fighter1shootresult);
+        $this->fighter1->setShootlocation($fighter1ShootLoc);
+        $fighter1shootresult = ($this->fighter1->getName() ." Стрелял в ". $this->fighter1->getShootlocation());
 
-        $fighter2 = new robot();
-        $fighter2->setShootlocation($fighter2ShootLoc);
-        $fighter2shootresult = ($fighter2->getName() ." Стрелял в ". $fighter2->getShootlocation());
-        var_dump($fighter2shootresult);
+        $this->fighter2 = new robot();
+        $this->fighter2->setShootlocation($fighter2ShootLoc);
+        $fighter2shootresult = ($this->fighter2->getName() ." Стрелял в ". $this->fighter2->getShootlocation());
+
+        $total = $fighter1shootresult ." ". $fighter2shootresult;
+        var_dump($total);
+        return $total;
     }
+
+
 
     public function ChangeLocComment($fighter1tLoc, $fighter2Loc)
     {
-        $fighter1 = new gamer();
-        $fighter1->setLocation($fighter1tLoc);
-        $fighterlocresult = ($fighter1->getName() ." ушел в ". $fighter1->getLocation());
-        var_dump($fighterlocresult);
+        $this->fighter1->setLocation($fighter1tLoc);
+        $fighterlocresult = ($this->fighter1->getName() ." ушел в ". $this->fighter1->getLocation());
 
-        $fighter2 = new robot();
-        $fighter2->setLocation($fighter2Loc);
-        $fighter2shootresult = ($fighter2->getName() ." ушел в ". $fighter2->getLocation());
-        var_dump($fighter2shootresult);
+        $this->fighter2 = new robot();
+        $this->fighter2->setLocation($fighter2Loc);
+        $fighter2shootresult = ($this->fighter2->getName() ." ушел в ". $this->fighter2->getLocation());
+        $total = $fighterlocresult ." ". $fighter2shootresult;
+        var_dump($total);
+        return $total;
     }
 
     public function JudgeDreddComment($player1, $player2)
     {
-        $conc = (string)($this->shootComment($player1,$player2) . $this->ChangeLocComment($player1,$player2));
-        var_dump($conc);
+        $player1 = $this->fighter1;
+        $player2 = $this->fighter2;
+        $conc = (string)($this->shootComment($player1,$player2) . (string)$this->ChangeLocComment($player1,$player2));
+        var_dump((string)$this->shootComment($player1,$player2));
     }
-
 }
