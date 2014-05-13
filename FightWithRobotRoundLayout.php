@@ -18,25 +18,35 @@ class FightWithRobotRoundLayout {
     {
         for ($i=0; $i < 3; $i++) {
             var_dump("Куда стрелять?");
-            $line = readline("");
+//           $line = readline("");
+            $line = $this->read_stdin();
             $player1 = new gamer();
             $player1->setShootlocation($line);
             $playershootloc = $player1->getShootlocation();
 
             var_dump("Куда уклоняться?");
-            $line1 = readline("");
+//            $line1 = readline("");
+            $line1 = $this->read_stdin();
             $player1->setLocation($line1);
             $playerlocation = $player1->getLocation();
 
             $player2 = new robot();
             $player2->getRandomLocation();
-            $robotlocation = $player2->getShootlocation();
-
+            $robotlocation = $player2->getLocation();
             $this->dredd = new Judge();
             $this->dredd->shootComment($playershootloc,  $player2->getRandomShootToLoc());
             $this->dredd->ChangeLocComment($playerlocation, $robotlocation);
 //            $this->dredd->JudgeDreddComment($player1,$player2);
         }
+    }
+
+   public  function read_stdin()
+    {
+        $fr=fopen("php://stdin","r");   // open our file pointer to read from stdin
+        $input = fgets($fr,128);        // read a maximum of 128 characters
+        $input = rtrim($input);         // trim any trailing spaces.
+        fclose ($fr);                   // close the file handle
+        return $input;                  // return the text entered
     }
 
 } 

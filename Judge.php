@@ -32,7 +32,7 @@ class Judge
         var_dump($fighterlocresult);
 
         $fighter2 = new robot();
-        $fighter2->setShootlocation($fighter2Loc);
+        $fighter2->setLocation($fighter2Loc);
         $fighter2shootresult = ($fighter2->getName() ." ушел в ". $fighter2->getLocation());
         var_dump($fighter2shootresult);
     }
