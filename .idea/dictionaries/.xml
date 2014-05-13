@@ -7,9 +7,11 @@
       <w>hootloc</w>
       <w>playerlocation</w>
       <w>playershootloc</w>
+      <w>robocob</w>
       <w>robocop</w>
       <w>robotlocation</w>
       <w>shootloc</w>
+      <w>shootlocation</w>
       <w>shootresult</w>
       <w>stdin</w>
     </words>

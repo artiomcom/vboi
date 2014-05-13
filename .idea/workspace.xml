@@ -35,7 +35,7 @@
       <file leaf-file-name="gamer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="1190">
+            <state line="16" column="20" selection-start="279" selection-end="279" vertical-scroll-proportion="2.4230769" vertical-offset="250" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -44,16 +44,7 @@
       <file leaf-file-name="robot.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="20" selection-start="750" selection-end="750" vertical-scroll-proportion="-9.423077" vertical-offset="537" max-vertical-offset="1547">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fighter.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fighter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
+            <state line="46" column="20" selection-start="750" selection-end="750" vertical-scroll-proportion="-30.076923" vertical-offset="0" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -62,16 +53,16 @@
       <file leaf-file-name="FightWithRobotRoundLayout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="-22.884615" vertical-offset="136" max-vertical-offset="969">
+            <state line="48" column="36" selection-start="1496" selection-end="1496" vertical-scroll-proportion="-21.76923" vertical-offset="165" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Judge.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Judge.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Judge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="3" selection-start="1428" selection-end="1428" vertical-scroll-proportion="-19.884615" vertical-offset="231" max-vertical-offset="1020">
+            <state line="39" column="0" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-0.39965695" vertical-offset="811" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -213,7 +204,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -225,7 +216,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -253,7 +244,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -271,23 +262,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamer.php">
+    <entry file="file://$PROJECT_DIR$/fighter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="821" selection-end="821" vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="20" selection-start="750" selection-end="750" vertical-scroll-proportion="-9.423077" vertical-offset="537" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Judge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="3" selection-start="1428" selection-end="1428" vertical-scroll-proportion="-19.884615" vertical-offset="231" max-vertical-offset="1020">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
           <folding />
         </state>
       </provider>
@@ -299,16 +276,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="-22.884615" vertical-offset="136" max-vertical-offset="969">
+        <state line="181" column="9" selection-start="6235" selection-end="6235" vertical-scroll-proportion="0.34819898" vertical-offset="2874" max-vertical-offset="18496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fighter.php">
+    <entry file="file://$PROJECT_DIR$/gamer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+        <state line="16" column="20" selection-start="279" selection-end="279" vertical-scroll-proportion="2.4230769" vertical-offset="250" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="20" selection-start="750" selection-end="750" vertical-scroll-proportion="-30.076923" vertical-offset="0" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FightWithRobotRoundLayout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="36" selection-start="1496" selection-end="1496" vertical-scroll-proportion="-21.76923" vertical-offset="165" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Judge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-0.39965695" vertical-offset="811" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
